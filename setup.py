@@ -8,7 +8,6 @@ setup(
     packages=find_packages(),
     license="LICENSE.txt",
     description="REST API for online cinema of tv series/soap operas",
-    long_description=open("README.txt").read(),
     install_requires=[
         "atomicwrites==1.1.5",
         "attrs==18.1.0",
