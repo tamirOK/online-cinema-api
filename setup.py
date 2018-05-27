@@ -29,5 +29,8 @@ setup(
         "six==1.11.0",
         "sqlparse==0.2.4",
         "Werkzeug==0.14.1",
-    ]
+    ],
+    package_data={
+        "cinema": ["*.ini"]
+    }
 )
