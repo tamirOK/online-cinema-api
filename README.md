@@ -12,7 +12,7 @@ Show directors can update and delete show, its seasons and episodes. Persons can
     
     ```DATABASE_URL=postgres://dbuser:password@dbhost:port/dbname```
 
-  .env file should be located in the project root
+  .env file should be located in the project root (where manage.py file is located)
 * Run the commands to apply migrations and  populate the created database:
 
     ```python manage.py migrate```
